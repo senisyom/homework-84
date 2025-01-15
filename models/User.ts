@@ -1,8 +1,8 @@
 import mongoose from 'mongoose';
 import bcrypt from 'bcrypt';
-import {UserFields, UserMethods, UserModel } from '../types';
 import { randomUUID } from 'node:crypto';
 import { escape } from 'node:querystring';
+import { UserFields, UserModel, UserMethods } from '../types';
 
 const SALT_WORK_FACTOR = 10;
 
